@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PyInstaller output (the exe is published via GitHub Releases)
+build/
+dist/
+
+# Local prototypes
+old-test/
+CODE-REVIEW-REPORT.md
+dev.md
+releasenote.md
+
+# Runtime data lives in %APPDATA%\Chess.com-Auto-Review; ignored in case it is ever created here
+chromeProfile/
+progress.db
+*.log
